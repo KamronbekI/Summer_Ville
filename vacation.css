@@ -1,0 +1,114 @@
+header {
+	text-align: center;
+	font-family: helvetica;
+	color: rgb(0, 255, 221);
+}
+
+.vac {
+	font-size: 60px;
+	font-weight: lighter;
+	color: rgb(0, 255, 221);
+	border: dotted 10px white;
+	border-radius: 50px;
+	margin: 30px 40vh;
+	animation: lights 2s infinite;
+}
+
+@keyframes lights {
+	0% {
+		border-color: rgb(0, 255, 221);
+	}
+	50% {
+		border-color: yellow;
+	}
+	100% {
+		border-color: rgb(0, 255, 221);
+	}
+}
+
+body {
+	background: linear-gradient(black, blue, rgb(0, 157, 255));
+}
+
+.summer {
+	color: rgb(0, 255, 221);
+	text-decoration: underline dotted;
+	text-decoration-color: lavender;
+}
+
+.warn {
+	font-family: copperplate;
+	text-align: center;
+	margin: 10px 65vh;
+	font-size: 20px;
+	transition: 0.5s;
+	animation: red 1.3s infinite;
+}
+
+@keyframes red {
+	0% {
+		color: white;
+	}
+	50% {
+		color: red;
+	}
+	100% {
+		color: white;
+	}
+}
+
+.warning {
+	font-size: 40px;
+}
+
+.button {
+	background-color: white;
+	color: rgb(190, 190, 55);
+	border: 2px solid rgb(199, 199, 28);
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.7s;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: rgb(0, 255, 221);
+	color: white;
+	border-radius: 20px;
+}
+
+.button:visited {
+	border: dotted 4px yellow;
+	background-color: rgb(0, 110, 255);
+	content: "Booked!";
+}
+
+.place {
+	text-align: center;
+	font-family: monaco;
+	color: rgb(37, 37, 37);
+	background-color: rgb(255, 213, 227);
+	border-radius: 35px;
+	animation: outline 5s infinite;
+	margin-bottom: 15px;
+}
+
+@keyframes outline {
+	0% {
+		border: solid 5px yellow;
+	}
+	50% {
+		border: solid 5px rgb(0, 255, 221);
+	}
+	100% {
+		border: solid 5px yellow;
+	}
+}
+
+img {
+	border-radius: 15px;
+}

@@ -1,0 +1,80 @@
+.title,
+a {
+	text-align: center;
+	color: #242657;
+	background: #5073b3;
+	font-size: 30px;
+	transition: 0.7s;
+}
+
+a:hover {
+	text-shadow: 2px 2px rgb(218, 125, 255);
+}
+
+header {
+	border: solid 10px rgb(90, 54, 104);
+	border-radius: 80px;
+	box-shadow: 4px 4px rgb(119, 246, 178);
+}
+
+h1 {
+	text-decoration: underline;
+	text-shadow: 2px 2px rgb(119, 246, 178);
+}
+
+body {
+	background: #324968;
+}
+
+button {
+	color: #242657;
+	background: #5073b3;
+	border: solid 3px rgb(90, 54, 104);
+	font-size: 40px;
+	margin: 10px;
+	border-radius: 10px;
+	transition: 0.7s;
+	padding: 0px 30px;
+}
+
+button:hover {
+	box-shadow: 5px 5px 2px rgb(119, 246, 178);
+	transform: rotate(-4deg);
+	text-shadow: 3px 3px 2px rgb(119, 246, 178);
+}
+
+.type {
+	margin: 30px 70vh;
+	display: flex;
+	flex-direction: column;
+	background: linear-gradient(to bottom, #242657, #2f4979);
+	padding: 30px;
+	border-radius: 20px;
+	border: dashed 3px rgb(119, 246, 178);
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+}
+
+p {
+	margin: 0px;
+	background: greenyellow;
+	padding: 50px;
+	text-align: left;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.right {
+	margin-right: 135vh;
+}
+
+.left:hover {
+	transform: rotate(-4deg);
+	box-shadow: -5px 5px 2px rgb(119, 246, 178);
+	text-shadow: -3px 3px 2px rgb(119, 246, 178);
+}

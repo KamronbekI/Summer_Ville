@@ -1,0 +1,99 @@
+.title {
+	text-align: center;
+	font-family: copperplate;
+	background: linear-gradient(rgb(246, 97, 122), rgb(246, 64, 94));
+	color: yellow;
+	padding-bottom: Opx;
+	margin: 0px;
+	border: solid 3px hotpink;
+}
+.toy {
+	font-size: 80px;
+	padding-top: 0px;
+	text-decoration: overline;
+	border-bottom-left-radius: 80px;
+	border-bottom-right-radius: 80px;
+}
+
+.maintitle {
+	border-top-left-radius: 80px;
+	border-top-right-radius: 80px;
+	transition: 1s;
+}
+
+.maintitle:hover {
+	color: rgb(0, 89, 255);
+}
+
+body {
+	background: linear-gradient(to bottom, rgb(250, 250, 141), hotpink);
+}
+
+h2 {
+	text-align: center;
+	margin-left: 70vh;
+	margin-right: 70vh;
+	color: rgb(246, 54, 150);
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 50px;
+	font-size: 30px;
+	font-family: cursive;
+	font-weight: bold;
+	animation: mymove 8s infinite;
+	text-align: center;
+}
+
+@keyframes mymove {
+	0% {
+		background-color: rgb(246, 54, 150);
+	}
+	50% {
+		background-color: yellow;
+	}
+	100% {
+		background-color: rgb(246, 54, 150);
+	}
+	0% {
+		color: yellow;
+	}
+	50% {
+		color: rgb(246, 54, 150);
+	}
+	100% {
+		color: yellow;
+	}
+}
+
+.desire {
+	text-align: center;
+}
+
+img {
+	border: 7px solid yellow;
+	border-radius: 30px;
+	margin: 4px 4px;
+	transition: 0.7s;
+}
+
+img:hover {
+	border: 8px solid hotpink;
+	transform: rotate(5deg);
+}
+
+.one {
+	display: flex;
+	flex-direction: row;
+	width: 20vh;
+}
+
+.two {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+a {
+	color: yellow;
+}
